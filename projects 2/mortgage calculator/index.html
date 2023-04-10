@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Title-->
+  <title>Mortgage Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Script for Linking to Google Font Stylesheets-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+    <!-- Script for Scroll to View-->
+    <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" />
+</head>
+<body>
+    <div class = "container">
+        <h1>Planning to buy a house in Singapore?</h1>
+        <h4>Here are some things to consider,</h4>
+        <h3><span style="color: red;">Housing Types</span>, <span style="color: blue;">Locations</span>, <span style="color: green;">Grants</span>
+        <br><br><br><br><hr><br><br><br></h3>
+        <h2>Housing Types:</h2>
+        <h4 style="white-space: nowrap;"><u>HDB:</u> <br><br> Price Range: <i>$200,000 SGD to $1.2 million SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>Condominium:</u> <br><br> Price Range: <i>$700,000 SGD to $5 million SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>Landed Property:</u> <br><br> Price Range: <i>$2 million SGD to $30 million SGD</i></h4>
+        <br><br><br>
+        <hr>
+        <br><br>
+        <h4>Since this article is more for first time homebuyers, we'll be looking more into HDB's</h4>
+        <br>
+        <h2>Locations:</h2>
+        <h4 style="white-space: nowrap;"><u>Central Region:</u> <br><br> Price Range: <i>$500,000 SGD to $1.5 million SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>East Region:</u> <br><br> Price Range: <i>$300,000 SGD to $900,000 SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>North Region:</u> <br><br> Price Range: <i>$250,000 SGD to $700,000 million SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>West Region:</u> <br><br> Price Range: <i>$300,000 SGD to $800,000 million SGD</i></h4>
+        <br><br><br>
+        <hr>
+        <br><br>
+        <h2>Grants:</h2>
+        <h4 style="white-space: nowrap;"><u>CPF Housing Grants:</u> <br><br> Price Range: <i>$500,000 SGD to $1.5 million SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>Additional CPF Housing Grant:</u> <br><br> Price Range: <i>$300,000 SGD to $900,000 SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>Special CPF Housing Grant:</u> <br><br> Price Range: <i>$300,000 SGD to $900,000 SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>Family Grant:</u> <br><br> Price Range: <i>$250,000 SGD to $700,000 million SGD</i></h4>
+        <h4 style="white-space: nowrap;"><u>Proximity Housing Grant:</u> <br><br> Price Range: <i>$300,000 SGD to $800,000 million SGD</i></h4>
+
+
+    </div>
+  <div class="container">
+    <h1>Mortgage Calculator</h1>
+    <label for="loan-amount">Loan Amount ($)</label>
+    <input type="number" id="loan-amount" placeholder="Loan amount">
+    <label for="interest-rate">Interest Rate (%)</label>
+    <input type="number" id="interest-rate" placeholder="Interest rate">
+    <label for="loan-term">Loan Term (Years)</label>
+    <input type="number" id="loan-term" placeholder="Loan term">
+    <button onclick="calculateMortgage()">Calculate</button>
+    <h2 id="monthly-payment"></h2>
+  </div>
+
+</body>
+</html>

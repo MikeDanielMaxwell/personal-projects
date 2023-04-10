@@ -1,0 +1,40 @@
+body {
+    background-color: #eaeaea;
+    background-image: linear-gradient(to bottom right, #eaeaea, #c7c7c7);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  br {
+    padding-bottom: 10px;
+  }
+  hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0;
+    padding: 0;
+  }
